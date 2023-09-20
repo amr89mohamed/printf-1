@@ -32,7 +32,7 @@ int _printf(const char *format, ...)
 			sum += print_from_to(start_spec, ptr, 0);
 		else
 			sum += get_print_fun(ptr, args);
-	}	
+	}
 	va_end(args);
 	return (sum);
 }
